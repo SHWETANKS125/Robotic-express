@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    padding:0;
+    margin: 0;
+}
+.pic{
+    max-width: 50%;
+    margin: auto;
+    border: 1px solid white;
+border-radius: 2px;
+}
+.background{
+    background: rgb(0,0,0)url('/img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: luminosity;
+}
+.nav-list{
+width: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar{
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+cursor: pointer;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 0px 23px;
+}
+.text-big{
+    font-size: 41px
+}
+.text-small{
+    font-size: 28px
+}
+body{
+    background-color: black;
+}
+.button{
+    background: white;
+    margin: 30px 0px;
+        padding: 5px 3px;
+        width: 50%;
+        font-size: 19px;
+        border-radius: 6px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        cursor: pointer;
+    }
+    .button:hover{
+        background:#34ee05;
+        margin: 30px 0px;
+            padding: 5px 3px;
+            width: 50%;
+            font-size: 19px;
+            border-radius: 6px;
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            cursor: pointer;
+            box-shadow: 0 0 10px #61f733, 0 0 40px #61f733, 0 0 80px #2196f3; 
+            color: white;
+        }
+        .Section{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            min-width: 13px;
+            margin: auto;
+            font-family: 'Ubuntu', sans-serif;
+            color: white;
+            flex-direction:column-reverse;
+            text-align: center;
+        }
+
+    @media only screen and (max-width: 1079px){
+        .rightNav{
+            text-align: center;
+    }
+
+
+
+
+
+    }
